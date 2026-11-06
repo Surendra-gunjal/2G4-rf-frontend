@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.bak
+_roundtrip.*
+*-backups/
+fp-info-cache
+~*.lck
+*.kicad_prl

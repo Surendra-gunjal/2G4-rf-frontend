@@ -1,0 +1,11 @@
+RefDes,Qty,Part / value,Package / notes,Link
+U1,1,MAX2644EXT+,SC70-6 2.4 GHz LNA; verify current stock and package marking,https://www.analog.com/en/products/max2644.html
+FL1,1,Johanson 2450BP14D0100001T,"0603 BPF, 2400-2500 MHz, 1.5 dB typ / 1.7 dB max insertion loss",https://www.johansontechnology.com/products/integrated-passives/band-pass-filters/2450bp14d0100001t/
+C1,1,33 pF C0G/NP0 ±5%,0402 RF capacitor; manufacturer reference value,https://www.digikey.in/
+L1,1,3.3 nH high-Q RF inductor,0402 RF inductor; use a part with self-resonance comfortably above 2.45 GHz; reference value,https://www.coilcraft.com/
+R1,1,1.2 kΩ 1%,0402 resistor; MAX2644 bias programming reference circuit,https://www.digikey.in/
+C2,1,33 pF C0G/NP0 ±5%,0402 bypass capacitor; place per datasheet layout,https://www.digikey.in/
+C3,1,15 pF C0G/NP0 ±5%,0402 bypass capacitor; place very close to IC per datasheet layout,https://www.digikey.in/
+"J1,J2",2,50 Ω SMA female edge-launch,Choose connector footprint to match final PCB thickness and vendor footprint,https://www.digikey.in/
+J3,1,2-pin power connector or test pads,3.3 V input and GND,https://www.digikey.in/
+PCB,1,Rogers RO4003C,Choose exact dielectric thickness and copper weight with manufacturer before line-width calculation,https://www.rogerscorp.com/advanced-electronics-solutions/ro4000-series-laminates/ro4003c-laminates

@@ -1,0 +1,33 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.2,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_to_hole": 0.25,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.5
+      }
+    }
+  },
+  "meta": {
+    "filename": "2G4_RF_Receiver_FrontEnd.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ],
+    "meta": {
+      "version": 3
+    }
+  }
+}

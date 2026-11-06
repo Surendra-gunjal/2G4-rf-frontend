@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RF_Generic")(type "KiCad")(uri "${KIPRJMOD}/RF_Generic.pretty")(options "")(descr "Generic placeholder footprints for the 2.4 GHz front-end"))
+)
